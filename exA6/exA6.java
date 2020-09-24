@@ -10,8 +10,8 @@ public class exA6 {
 	
 	 HashMap <String, Integer> months = new HashMap<String, Integer>();
 	 Scanner scanner = new Scanner(System.in);
-     months.put("Januari", 31);
-	 months.put("Februari", 28);
+     months.put("January", 31);
+	 months.put("February", 28);
 	 months.put("March", 31);
 	 months.put("April", 30);
 	 months.put("May", 31);
