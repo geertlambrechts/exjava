@@ -1,0 +1,7 @@
+    Title                  : dqsd
+    Number of Days         : 20
+    price/day              : 25.0 euro
+    prior knowledge        : 300
+    Number of Instructors  : 3
+    total price            : 500.0
+    label                  : OK
