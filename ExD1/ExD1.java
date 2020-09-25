@@ -55,6 +55,7 @@ public class ExD1 {
 	 }
 	 catch (FileNotFoundException e1) {
 			System.out.println("file instructors.txt not found");
+			return;
 	 }
 	 
 	 try {
@@ -63,6 +64,7 @@ public class ExD1 {
 	 }
 	 catch (IOException e1) {
 			System.out.println("Problem when reading the file instructors.txt");
+			return;
 	 }
 	 
 	 try {
@@ -70,6 +72,7 @@ public class ExD1 {
 	 }
 	 catch (IOException e1) {
 		System.out.println("Error when closing the file instructors.txt");
+		return;
 	 }
 	 // end read instructors-file	
 		
