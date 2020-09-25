@@ -71,14 +71,15 @@ public class Instructor {
 	  int currentAge = age;
 	  
 	  try {
-			BufferedWriter out = new BufferedWriter(new FileWriter("salaryhistory.txt"));
+		    FileWriter fileWriter = new FileWriter("salaryhistory.txt",true);
+			BufferedWriter out = new BufferedWriter(fileWriter);
 			
 			while (increasedAge <= currentAge && (increasedAge - ageStarted) <= MAX_SENIORITY ) {
 				out.write("Salary of " + firstName + " at " + increasedAge + " is " + increasedSalary + "\n");
 				increasedAge += INCREASE_PERIOD;
 				increasedSalary *= SALARY_INCREASE;
 			}
-			out.write("Maximum Salary reached");
+			out.write("Maximum Salary reached\n\n");
 			
 			out.close();
 			

@@ -7,6 +7,7 @@ public class ExF2 {
 		Instructor instructor1 = new Instructor ("Geert", "Lambrechts", 52, 16, 1000);
 		Instructor instructor2 = new Instructor ("Sandy", "Example", 65, 23, 2000);
 		
+		instructor1.printSalaryHistory();
 		instructor2.printSalaryHistory();
   }
 } 
